@@ -55,7 +55,7 @@ describe('power', () => {
 });
 
 describe('factorial', () => {
-  test('computes the factorial of 0', () => {
+  testw('computes the factorial of 0', () => {
     expect(calculator.factorial(0)).toBe(1); // 0! = 1
   });
 
